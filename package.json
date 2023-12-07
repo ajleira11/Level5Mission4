@@ -1,0 +1,23 @@
+{
+  "name": "level5mission4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.cjs",
+  "preferGlobal": true,
+  "bin": "commands.cjs",
+  "scripts": {
+    "dev": "nodemon index.cjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "inquirer": "^8.2.6",
+    "mongoose": "^8.0.2",
+    "nodemon": "^3.0.2"
+  }
+}
